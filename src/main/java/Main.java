@@ -10,7 +10,7 @@ import java.util.EventListener;
 
 public class Main {
     public static void main(String[] args) throws LoginException, InterruptedException {
-        JDA jda = JDABuilder.createDefault("ODc3ODk1OTE1ODg3Nzg4MDMy.YR5SSA.epo91eWj4Vco-90_lhUWC9w3IKg")
+        JDA jda = JDABuilder.createDefault("ODc3ODk1OTE1ODg3Nzg4MDMy.YR5SSA.8puo3cQ04FYyRLkdjW5CxBYtdBg")
                 .addEventListeners(new Ping())
                 .build();
     }
